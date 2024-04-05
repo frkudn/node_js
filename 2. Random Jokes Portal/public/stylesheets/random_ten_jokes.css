@@ -1,0 +1,102 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f39c12, #e74c3c); /* Gradient colors */
+    color: #333; /* Default font color */
+}
+
+.container {
+    max-width: 90%; /* Limit container width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Heading font color */
+}
+
+.joke-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow for a floating effect */
+    margin-bottom: 20px; /* Space between joke boxes */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.type {
+    font-size: 1.2rem;
+}
+
+.setup {
+    font-size: 1.2rem;
+}
+
+.punchline {
+    font-size: 1.4rem;
+}
+
+/* Joke box styles */
+.joke-box:nth-child(odd) {
+    background: linear-gradient(135deg, #ff9f43, #e84118); /* Gradient colors for odd joke boxes */
+    color: #fff; /* Font color for odd joke boxes */
+    font-family: 'Tahoma', sans-serif; /* Font style for odd joke boxes */
+}
+
+.joke-box:nth-child(even) {
+    background: linear-gradient(135deg, #3fa9f5, #0c2461); /* Gradient colors for even joke boxes */
+    color: #fff; /* Font color for even joke boxes */
+    font-family: 'Georgia', serif; /* Font style for even joke boxes */
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    .joke-box {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .type, .setup, .punchline {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .joke-box {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .type, .setup, .punchline {
+        font-size: 0.9rem;
+    }
+}

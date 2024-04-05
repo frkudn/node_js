@@ -18,7 +18,7 @@ export const fetchNotes = async (req, res) => {
     }
   } catch (error) {
     res.status(200).json({
-      notes,
+      "errorMessage": error.message
     });
   }
 };
@@ -80,3 +80,6 @@ export const deleteNote = async (req, res) => {
     });
   }
 };
+
+
+

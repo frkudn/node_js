@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff7171, #ffc371);
+    /* Pink to orange gradient */
+    font-family: 'Arial', sans-serif;
+    /* Change the font-family to your desired beautiful font */
+    overflow: hidden;
+    /* Hide overflow to prevent scrollbars */
+}
+
+.container {
+    background: linear-gradient(135deg, #ff7171, #ffc371);
+    /* Pink to orange gradient */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Box shadow for a floating effect */
+    padding: 20px;
+    max-width: 80%;
+    /* Limit container width */
+}
+
+.heading {
+    font-size: 3rem;
+    /* Responsive font size */
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    /* Text shadow for a cool effect */
+    margin-bottom: 30px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.7);
+    /* Glass effect: adjust the transparency as needed */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    /* Responsive font size */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.type {
+    font-family: 'Arial Black', sans-serif;
+    /* Different font for type */
+    font-size: 2rem;
+    /* Responsive font size */
+    color: #ff7171;
+    /* Font color matching the gradient */
+}
+
+.setup {
+    font-family: 'Courier New', monospace;
+    /* Different font for setup */
+    font-size: 1.5rem;
+    /* Responsive font size */
+    color: #ffb94e;
+    /* Font color matching the gradient */
+}
+
+.punchline {
+    font-family: 'Georgia', serif;
+    /* Different font for punchline */
+    font-size: 1.8rem;
+    /* Responsive font size */
+    color: #ff9b64;
+    /* Font color matching the gradient */
+}
+
+.animated-text {
+    animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    .type {
+        font-size: 1.5rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    .setup {
+        font-size: 1.2rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    .punchline {
+        font-size: 1.4rem;
+        /* Adjust font size for smaller screens */
+    }
+}

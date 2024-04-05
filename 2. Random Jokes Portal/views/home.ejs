@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f39c12, #e74c3c);
+            /* Gradient colors */
+            color: #333;
+            /* Default font color */
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #fff;
+            /* Heading font color */
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #fff;
+            /* Subheading font color */
+            margin-bottom: 10px;
+        }
+
+        pre {
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.9);
+            /* Glass effect: adjust the transparency as needed */
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            /* Box shadow for a floating effect */
+            margin-bottom: 20px;
+            /* Space between endpoints */
+            display: inline-block;
+            cursor: pointer; /* Add cursor pointer */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Random Jokes Portal</h1>
+    <h2>Choose your way to laughter:</h2>
+    <p>For a Random Single Joke in JSON format:</p>
+    <!-- Redirect to: http://localhost:<%=PORT%>/api/random -->
+    <a href="/api/random"><pre>/api/random</pre></a>
+    <p>For a Random Single Joke as a webpage:</p>
+    <!-- Redirect to: http://localhost:<%=PORT%>/random -->
+    <a href="/random"><pre>/random</pre></a>
+
+    <p>For Ten Random Jokes in JSON format:</p>
+    <!-- Redirect to: http://localhost:<%=PORT%>/api/random_ten -->
+    <a href="/api/random_ten"><pre>/api/random_ten</pre></a>
+    <p>For Ten Random Jokes as webpages:</p>
+    <!-- Redirect to: http://localhost:<%=PORT%>/random_ten -->
+    <a href="/random_ten"><pre>/random_ten</pre></a>
+</body>
+
+</html>

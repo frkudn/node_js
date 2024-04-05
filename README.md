@@ -53,7 +53,6 @@ To continue your Node.js learning journey, explore the following resources:
 Whether you're a beginner or an experienced developer looking to expand your skill set, Node.js offers endless possibilities for building powerful web applications and APIs. Start your Node.js journey today and unlock the potential of server-side JavaScript development!
 
 ---
-
 ## Project One: Simple Notes App
 
 ### Description
@@ -73,25 +72,60 @@ To get started with Project One, follow these steps:
 
 1. **Clone this Repository**: Clone this repository to your local machine using the following command: `git clone https://github.com/ffurqanuddin/node_js.git`.
    
-2. **Navigate to the Project Directory**: Enter the project directory using the `cd [Project Folder Name], type pwd for checking working directory` command.
+2. **Navigate to the Project Directory**: Enter the project directory using the `cd 'Simple Notes App` command.
    
-3. **Install Dependencies**: Install project dependencies using npm: `npm i express mongoose nodemon dotenv body-parser`
+3. **Run the Project**: Start the server by running the following command: `npm start`.
 
-4. **Install MongoDB**: MongoDB installation is required. You can download and install MongoDB from the [official MongoDB website](https://www.mongodb.com/try/download/community).
+4. **Access the Application**: Once the server is running, you can access the application by navigating to `http://localhost:PORT` in your web browser, where `PORT` is the port number specified in your environment variables.
 
-5. **Setup MongoDB**: Go to the MongoDB official website, create a database, copy the database URL, and configure network settings to allow access for all users.
+5. **Explore the Endpoints**: Explore the available endpoints to interact with the Notes application. You can retrieve, add, update, and delete notes using the provided API endpoints.
 
-6. **Set Environment Variables**: Create a `.env` file and define two variables: 
-   - `PORT = <PORT>` (Specify the port number your server will run on)
-   - `MONGO_URL = <DBURL>` (Provide the MongoDB database URL)
+6. **Customize as Needed**: Modify the project files and endpoints according to your requirements. You can customize the functionality, add new features, or integrate additional databases.
 
-8. **Run the Project**: Start the server by running the following command: `npm start`.
+7. **Deploy to Production**: Once you are satisfied with your changes, deploy the application to a production environment. You can choose a cloud platform such as Heroku, AWS, or Google Cloud Platform for deployment.
 
-9. **Update the APIs according to your needs**: Modify the API endpoints and functionality to suit your application requirements. This includes defining new routes, updating existing ones, and handling data validation.
+8. **Test Endpoints**: Test the endpoints to ensure they are functioning as expected. Use tools like Postman or cURL to send requests to the API endpoints and verify the responses.
 
-10. **Deploy to Own Cloud**: Once your application is ready, deploy it to your preferred cloud platform for accessibility. Popular options include DigitalOcean, Heroku, AWS, and Google Cloud Platform. Each platform provides comprehensive documentation and guides to help you through the deployment process.
+9. **Monitor and Maintain**: Monitor the application for any issues and perform regular maintenance tasks to ensure optimal performance and reliability.
 
-11. **Create Frontend**: Develop a frontend interface to interact with the backend APIs. You can use frameworks like React.js or Vue.js to create dynamic and responsive user interfaces that consume data from your Node.js backend.
+
+## Project TWO: Random Jokes Portal
+
+### Description
+
+The Random Jokes Portal is a web application built with Node.js, Express, EJS, and Axios. It provides endpoints to fetch random jokes and ten random jokes in both JSON format and as webpages rendered using EJS.
+
+### Features
+
+- **Fetch Random Joke (JSON)**: Retrieve a single random joke in JSON format via the API endpoint `/api/random`.
+- **Fetch Random Joke (EJS)**: Retrieve a single random joke as a webpage rendered using EJS via the endpoint `/random`.
+- **Fetch Ten Random Jokes (JSON)**: Retrieve ten random jokes in JSON format via the API endpoint `/api/random_ten`.
+- **Fetch Ten Random Jokes (EJS)**: Retrieve ten random jokes as webpages rendered using EJS via the endpoint `/random_ten`.
+- **Responsive Design**: The webpages are designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones.
+
+### Getting Started
+
+To get started with the Random Jokes Portal, follow these steps:
+
+1. **Clone this Repository**: Clone this repository to your local machine using the following command: `git clone https://github.com/ffurqanuddin/node_js.git`.
+
+2. **Navigate to the Project Directory**: Enter the project directory using the command `cd 'Random Jokes Portal'`.
+
+3. **Run the Project**: Start the server by running the command: `npm start`.
+
+4. **Access the Application**: Once the server is running, you can access the application by navigating to `http://localhost:PORT` in your web browser, where `PORT` is the port number specified in your environment variables.
+
+5. **Explore the Endpoints**: Explore the available endpoints to fetch random jokes and ten random jokes both in JSON format and as webpages.
+
+6. **Customize as Needed**: Modify the project files and endpoints according to your requirements. You can customize the design, add new features, or integrate additional APIs.
+
+7. **Deploy to Production**: Once you are satisfied with your changes, deploy the application to a production environment. You can choose a cloud platform such as Heroku, AWS, or Google Cloud Platform for deployment.
+
+8. **Test Endpoints**: Test the endpoints to ensure they are functioning as expected. Use tools like Postman or cURL to send requests to the API endpoints and verify the responses.
+
+9. **Monitor and Maintain**: Monitor the application for any issues and perform regular maintenance tasks to ensure optimal performance and reliability.
+
+
 
 ## Contributing
 
