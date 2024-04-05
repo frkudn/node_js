@@ -72,7 +72,7 @@ To get started with Project One, follow these steps:
 
 1. **Clone this Repository**: Clone this repository to your local machine using the following command: `git clone https://github.com/ffurqanuddin/node_js.git`.
    
-2. **Navigate to the Project Directory**: Enter the project directory using the `cd 'Simple Notes App` command.
+2. **Navigate to the Project Directory**: Enter the project directory using the `cd '1. Simple Notes App'` command.
    
 3. **Run the Project**: Start the server by running the following command: `npm start`.
 
@@ -109,7 +109,7 @@ To get started with the Random Jokes Portal, follow these steps:
 
 1. **Clone this Repository**: Clone this repository to your local machine using the following command: `git clone https://github.com/ffurqanuddin/node_js.git`.
 
-2. **Navigate to the Project Directory**: Enter the project directory using the command `cd 'Random Jokes Portal'`.
+2. **Navigate to the Project Directory**: Enter the project directory using the command `cd '2. Random Jokes Portal'`.
 
 3. **Run the Project**: Start the server by running the command: `npm start`.
 
