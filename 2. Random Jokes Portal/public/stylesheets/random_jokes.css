@@ -2,6 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column; /* Align refresh button on top */
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #ff7171, #ffc371);
@@ -78,41 +79,22 @@ h2 {
     animation: fadeInUp 1s ease forwards;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.refresh-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 768px) {
-    .heading {
-        font-size: 2rem;
-        /* Adjust font size for smaller screens */
-    }
-
-    h2 {
-        font-size: 1rem;
-        /* Adjust font size for smaller screens */
-    }
-
-    .type {
-        font-size: 1.5rem;
-        /* Adjust font size for smaller screens */
-    }
-
-    .setup {
-        font-size: 1.2rem;
-        /* Adjust font size for smaller screens */
-    }
-
-    .punchline {
-        font-size: 1.4rem;
-        /* Adjust font size for smaller screens */
-    }
+.refresh-button:hover {
+    background-color: #ff1100;
 }
